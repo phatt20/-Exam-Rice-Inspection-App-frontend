@@ -1,0 +1,89 @@
+/* กล่องใหญ่ */
+.create-inspection-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  background: linear-gradient(135deg, #1f2937, #111827, #000);
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+/* หัวข้อ */
+.create-inspection-title {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #facc15;
+  text-shadow: 1px 1px 6px black;
+}
+
+/* label */
+.form-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #93c5fd;
+}
+
+/* input / select / textarea */
+.form-input,
+.form-select,
+.form-textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #60a5fa;
+  background: #374151;
+  color: white;
+  outline: none;
+  font-size: 16px;
+}
+
+.form-input:focus,
+.form-select:focus,
+.form-textarea:focus {
+  border-color: #facc15;
+  box-shadow: 0 0 0 2px #facc15;
+}
+
+/* checkbox */
+.checkbox-group {
+  display: flex;
+  gap: 20px;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+  color: white;
+}
+
+.checkbox-input {
+  width: 20px;
+  height: 20px;
+}
+
+/* ปุ่ม */
+.submit-btn {
+  width: 100%;
+  padding: 14px;
+  margin-top: 20px;
+  background: linear-gradient(to right, #facc15, #ca8a04);
+  border: none;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 18px;
+  color: black;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background: linear-gradient(to right, #fde047, #a16207);
+  color: white;
+}
